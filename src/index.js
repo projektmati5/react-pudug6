@@ -20,11 +20,16 @@ render()
 
 class Board extends React.Component
 {
-
+renderSquare()
+{return <Square/>};
 
 render()
 {const status="Next player: X ";
-return()
+return(
+{this.renderSquare(0)}
+{this.renderSquare(1)}
+);
+
 
 
 
@@ -37,6 +42,6 @@ return()
 
 
 ReactDOM.render(
-  <Square />,
+  <Board />,
   document.getElementById('root')
 );
