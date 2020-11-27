@@ -17,6 +17,25 @@ render()
 }
 
 
+
+class Board extends React.Component
+{
+
+
+render()
+{const status="Next player: X ";
+return()
+
+
+
+
+
+
+}
+
+};
+
+
 ReactDOM.render(
   <Square />,
   document.getElementById('root')
