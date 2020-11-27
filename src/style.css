@@ -20,7 +20,7 @@ ol, ul {
 .square {
   background: rgb(255, 200, 0);
   border: 5px solid #999;
-  float: right;
+  float: left;
   font-size: 54px;
   font-weight: bold;
   line-height: 134px;
