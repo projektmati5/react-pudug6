@@ -26,8 +26,9 @@ renderSquare()
 render()
 {const status="Next player: X ";
 return(
+  <div>
 {this.renderSquare(0)}
-{this.renderSquare(1)}
+{this.renderSquare(1)}</div>
 );
 
 
