@@ -9,11 +9,15 @@ class Square extends React.Component
 render()
 {
   return (
-    <button className="square">
+    <button className="square" onClick={()=> alert("g")}>
+    </button>
     )}
 
 
 }
 
 
-
+ReactDOM.render(
+  <Square />,
+  document.getElementById('root')
+);
