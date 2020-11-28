@@ -59,7 +59,7 @@ class Game extends React.Component{
    <div className="game-info">
    <div>{}</div>
    <ol>{}</ol>
-   </div></di
+   </div>
    );
    
 }
